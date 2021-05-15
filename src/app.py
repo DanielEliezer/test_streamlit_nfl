@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 
 
-@st.cache
+
 def carrega_dados(caminho):
     dados = pd.read_csv(caminho, engine = 'python')
     return dados
