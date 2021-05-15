@@ -35,8 +35,8 @@ def plota_reg(dados, eixoy, str_legenda):
 def main():
         
         
-        df = carrega_dados("C:\\Users\\55119\\Documents\\Carreira Daniel\\Estudos\\streamlit_nfl\\nfl_stlt\\dados\\spreadspoke_scores.csv")
-        
+        #df = carrega_dados("C:\\Users\\55119\\Documents\\Carreira Daniel\\Estudos\\streamlit_nfl\\nfl_stlt\\dados\\spreadspoke_scores.csv")
+        df = carrega_dados("dados/spreadspoke_scores.csv")
         
         st.title("Análise NLF")
         st.markdown("Este trabalho busca testar o streamlit, através da análise de dados da NFL")
