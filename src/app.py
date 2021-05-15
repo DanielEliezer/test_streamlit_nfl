@@ -112,7 +112,7 @@ def main():
         st.pyplot(figura2)
         figura3 = plota_reg(df_teams,'pts_adversario',"contra")
         st.pyplot(figura3)
-        st.markdown("Curiosamente, nota-se uma correlação levamente positiva entre vitórias e pontos contra. Obviamente, isso não indica uma relação de causa e efeito, e é necessário entender melhor o por quê disso. Uma hipótese é que muitos desses pontos sejam levados no garbage time, após quando o time já ter garantido a vitória")
+        st.markdown("Curiosamente, nota-se uma correlação levamente positiva entre vitórias e pontos contra. Obviamente, isso não indica uma relação de causa e efeito, e é necessário entender melhor o por quê disso. Uma hipótese é que muitos desses pontos sejam levados no garbage time, após o time já ter garantido a vitória")
 
 if __name__ == "__main__":
     main()
